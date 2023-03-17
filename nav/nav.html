@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nav</title>
+    <link href="./nav.css" rel="stylesheet" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      li {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+        /* vertical-align: middle; */
+      }
+      button {
+        visibility: hidden;
+      }
+      button svg,
+      button a {
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav>
+      <div class="nav_wrap">
+        <div id="editorial">
+          <li><a href="#">Editorial</a></li>
+        </div>
+        <div id="line"></div>
+        <div class="topic_wrap">
+          <div class="topic_overflow">
+            <ul>
+              <div class="topic">
+                <li>
+                  <span style="font-size: 11px">Featured</span>
+                  <a href="#">Girls vs. Stereotypes</a>
+                </li>
+                <li><a href="#">Current Event</a></li>
+                <li><a href="#">Wallpapers</a></li>
+                <li><a href="#">3D Renders</a></li>
+                <li><a href="#">Textures & Patterns</a></li>
+                <li><a href="#">Experimental</a></li>
+                <li><a href="#">Architecture</a></li>
+                <li><a href="#">Nature</a></li>
+                <li><a href="#">Business & Work</a></li>
+                <li><a href="#">Fashion</a></li>
+                <li><a href="#">Film</a></li>
+                <li><a href="#">Food & Drink</a></li>
+                <li><a href="#">Health & Wellness</a></li>
+                <li><a href="#">People</a></li>
+                <li><a href="#">Interiors</a></li>
+                <li><a href="#">Street Photography</a></li>
+                <li><a href="#">Travel</a></li>
+                <li><a href="#">Animals</a></li>
+                <li><a href="#">Spirituality</a></li>
+                <li><a href="#">Art & Culture</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Athletics</a></li>
+              </div>
+              <!-- <div id="blank"></div> -->
+            </ul>
+          </div>
+          <div id="gradient">
+            <button>
+              <svg width="24" height="24" class="DG_Wq" viewBox="0 0 32 32" version="1.1" aria-hidden="false">
+                <path d="M11.3333 7.3333l2-2L24 16 13.3333 26.6666l-2-2L20 16l-8.6667-8.6667z"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>

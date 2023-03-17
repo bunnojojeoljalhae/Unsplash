@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unsplash</title>
+    <link href="./unsplash.css" rel="stylesheet" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      li {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+        /* vertical-align: middle; */
+      }
+      button {
+        visibility: hidden;
+      }
+      button svg,
+      button a {
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="header_wrap">
+        <div class="search">
+          <div id="logo">
+            <svg
+              width="32"
+              height="32"
+              class="hic6U"
+              viewBox="0 0 32 32"
+              version="1.1"
+              aria-labelledby="unsplash-home"
+              aria-hidden="false"
+            >
+              <title id="unsplash-home">Unsplash Home</title>
+              <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+            </svg>
+          </div>
+          <div class="search_bar">
+            <div class="search_icon" id="magnifier">
+              <button>
+                <svg width="32" height="32" class="DFW_E nT46U VETef" viewBox="0 0 32 32" version="1.1" aria-hidden="false">
+                  <path
+                    d="M22 20c1.2-1.6 2-3.7 2-6 0-5.5-4.5-10-10-10S4 8.5 4 14s4.5 10 10 10c2.3 0 4.3-.7 6-2l6.1 6 1.9-2-6-6zm-8 1.3c-4 0-7.3-3.3-7.3-7.3S10 6.7 14 6.7s7.3 3.3 7.3 7.3-3.3 7.3-7.3 7.3z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <input type="text" placeholder="Search free high-resolution photos" />
+            <div class="search_icon" id="visual">
+              <button>
+                <svg width="32" height="32" class="VdNCI nT46U VETef" viewBox="0 0 32 32" version="1.1" aria-hidden="false">
+                  <path
+                    d="M6.7 25.3H12V28H6.7C5.2 28 4 26.8 4 25.3V20h2.7v5.3zm0-18.6H12V4H6.7C5.2 4 4 5.2 4 6.7V12h2.7V6.7zM25.3 4H20v2.7h5.3V12H28V6.7C28 5.2 26.8 4 25.3 4zm0 21.3H20V28h5.3c1.5 0 2.7-1.2 2.7-2.7V20h-2.7v5.3zm-4-9.3c0 2.9-2.4 5.3-5.3 5.3s-5.3-2.4-5.3-5.3 2.4-5.3 5.3-5.3 5.3 2.4 5.3 5.3zm-2.6 0c0-1.5-1.2-2.7-2.7-2.7s-2.7 1.2-2.7 2.7 1.2 2.7 2.7 2.7 2.7-1.2 2.7-2.7z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <nav>
+          <div class="header_nav_wrap">
+            <div class="nav_1">
+              <ul>
+                <li><a href="https://unsplash.com/explore">Explode</a></li>
+                <li><a href="https://unsplash.com/advertise">Adventure</a></li>
+                <li><a href="https://unsplash.com/blog/">Blog</a></li>
+              </ul>
+            </div>
+            <div class="nav_2">
+              <ul>
+                <li><a>Log in</a></li>
+                <li>/</li>
+                <li><a>Sign up</a></li>
+              </ul>
+            </div>
+            <div id="line"></div>
+            <div id="submit_b">
+              <button><a>Submit a photo</a></button>
+            </div>
+            <div id="view_more">
+              <button>
+                <svg width="24" height="24" class="BOTrp" viewBox="0 0 32 32" version="1.1" aria-hidden="false">
+                  <path d="M4 21.3h24V24H4v-2.7zM4 8v2.7h24V8H4zm0 9.3h24v-2.7H4v2.7z"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- nav -->
+    <nav>
+      <div>
+        <div id="editorial">
+          <li><a href="#">Editorial</a></li>
+        </div>
+        <div id="line"></div>
+        <div class="topic_wrap">
+          <div class="topic_overflow">
+            <ul>
+              <div class="topic">
+                <li>
+                  <a href="#"><span>Featured</span>Girls vs. Stereotypes</a>
+                </li>
+                <li><a href="#">Current Event</a></li>
+                <li><a href="#">Wallpapers</a></li>
+                <li><a href="#">3D Renders</a></li>
+                <li><a href="#">Textures & Patterns</a></li>
+                <li><a href="#">Experimental</a></li>
+                <li><a href="#">Architecture</a></li>
+                <li><a href="#">Nature</a></li>
+                <li><a href="#">Business & Work</a></li>
+                <li><a href="#">Fashion</a></li>
+                <li><a href="#">Film</a></li>
+                <li><a href="#">Food & Drink</a></li>
+                <li><a href="#">Health & Wellness</a></li>
+                <li><a href="#">People</a></li>
+                <li><a href="#">Interiors</a></li>
+                <li><a href="#">Street Photography</a></li>
+                <li><a href="#">Travel</a></li>
+                <li><a href="#">Animals</a></li>
+                <li><a href="#">Spirituality</a></li>
+                <li><a href="#">Art & Culture</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Athletics</a></li>
+              </div>
+              <!-- <div id="blank"></div> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+   <!-- main -->
+   <main>
+    <div class="main_wrap">
+      <div class="main_bg_image"></div>
+      <div class="darkness"></div>
+      <div class="main_content">
+        <h1 style="font-family: 'Almarai', sans-serif">Unsplash</h1>
+        <div style="font-size: 17px">
+          The internet's source of <a href="https://unsplash.com/license">freely-usable images.</a>
+          <p style="font-size: 17px">Powered by creators everywhere.</p>
+        </div>
+
+        <div class="main_search">
+          <div class="main_icon" id="magnifier_m">
+            <button>
+              <svg width="32" height="32" class="DFW_E nT46U NIGLg" viewBox="0 0 32 32" version="1.1" aria-hidden="false">
+                <path
+                  d="M22 20c1.2-1.6 2-3.7 2-6 0-5.5-4.5-10-10-10S4 8.5 4 14s4.5 10 10 10c2.3 0 4.3-.7 6-2l6.1 6 1.9-2-6-6zm-8 1.3c-4 0-7.3-3.3-7.3-7.3S10 6.7 14 6.7s7.3 3.3 7.3 7.3-3.3 7.3-7.3 7.3z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <div id="main_search_bar">
+            <input type="text" placeholder="Search free high-resolution photos" />
+          </div>
+          <div class="main_icon" id="visual_m">
+            <button>
+              <svg width="32" height="32" class="VdNCI nT46U VETef" viewBox="0 0 32 32" version="1.1" aria-hidden="false">
+                <path
+                  d="M6.7 25.3H12V28H6.7C5.2 28 4 26.8 4 25.3V20h2.7v5.3zm0-18.6H12V4H6.7C5.2 4 4 5.2 4 6.7V12h2.7V6.7zM25.3 4H20v2.7h5.3V12H28V6.7C28 5.2 26.8 4 25.3 4zm0 21.3H20V28h5.3c1.5 0 2.7-1.2 2.7-2.7V20h-2.7v5.3zm-4-9.3c0 2.9-2.4 5.3-5.3 5.3s-5.3-2.4-5.3-5.3 2.4-5.3 5.3-5.3 5.3 2.4 5.3 5.3zm-2.6 0c0-1.5-1.2-2.7-2.7-2.7s-2.7 1.2-2.7 2.7 1.2 2.7 2.7 2.7 2.7-1.2 2.7-2.7z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div id="trending">
+          Trending: <a href="#">flower</a>, <a href="#">wallpapers</a>, <a href="#">backgrounds</a>, <a href="#">happy</a>,
+          <a href="#">love</a>
+        </div>
+      </div>
+
+      <footer>
+        <p id="photoby"><a href="#">Photo</a> by <a href="https://unsplash.com/@daveherring">Dave Herring</a></p>
+        <p id="license">Read me more about the <a> &nbsp;Unsplash License</a></p>
+        <!-- <div class="squarespace"> -->
+        <div class="squarespace">
+          <a><img src="./img/squrespace_logo.png" /></a>
+          <p><a>Create your website today.</a></p>
+        </div>
+        <!-- </div> -->
+      </footer>
+    </div>
+  </main>
+
+    <!-- section -->
+    <section>
+      <div class="section_wrap">
+        <div class="column_1" style="--column-gutter:24px --columns:1;">
+          <div class="col_1 row_1">
+            <figure itemprop="img" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="#">
+                <img src="./img/Wasa_Crispbread.jpg" itemprop="thumbnail" />
+              </a>
+              <!-- image data -->
+              <div class="img_data">
+                <div class="profile">
+                  <img src="./img/Wasa Crispbread_profile_img.png" style="width: 32px; height: 32px; border-radius: 50%" />
+                  <span>
+                    <div>
+                      <a href="https://unsplash.com/@wasacrispbread">Wasa Crispbread</a>
+                    </div>
+                    <a href="https://www.wasa.com/global/" target="_blank">Wholesome crispbread from Sweden ↗</a>
+                  </span>
+                </div>
+                <!--hover data-->
+                <div class="img_hover">
+                  <div class="sponsor">
+                    <span>
+                      <a href="https://unsplash.com/brands">sponsored</a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+
+          <!-- column 1 > row 2 -->
+          <div class="col_1 row_2">
+            <figure itemprop="img" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="#">
+                <img src="./img/Samsung Memory.jpg" itemprop="thumbnail" />
+              </a>
+              <!-- image data -->
+              <div class="img_data">
+                <div class="profile">
+                  <img src="./img/Samsung Memory_profile_img.jpg" style="width: 32px; height: 32px; border-radius: 50%" />
+                  <span>
+                    <div>
+                      <a href="https://unsplash.com/@samsungmemory">Samgsung Memory</a>
+                    </div>
+                    <a href="https://www.samsung.com/us/memory-storage/" target="_blank">Memory storage made for everyone ↗</a>
+                  </span>
+                </div>
+              </div>
+
+              <!--hover data-->
+              <div class="img_hover">
+                <div class="sponsor">
+                  <span>
+                    <a href="https://unsplash.com/brands">sponsored</a>
+                  </span>
+                </div>
+              </div>
+            </figure>
+          </div>
+        </div>
+
+        <!-- column 2 > row 1 -->
+        <div class="column_2" style="--column-gutter:24px --columns:2;">
+          <div class="col_2 row_1">
+            <figure itemprop="img" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="#">
+                <img src="./img/Edward Howell.jpg" itemprop="thumbnail" />
+              </a>
+              <!--hover data-->
+              <div class="img_hover">
+                <div class="img_darkness"></div>
+                <div class="profile">
+                  <img src="./img/Edward Howell_profile_img.jpg" style="width: 32px; height: 32px; border-radius: 50%" />
+                  <span>
+                    <div>
+                      <a href="https://unsplash.com/@edwardhowellphotography">Edward Howell</a>
+                    </div>
+                    <a href="https://unsplash.com/@edwardhowellphotography">Available for hire</a>
+                  </span>
+                </div>
+              </div>
+            </figure>
+          </div>
+
+          <!-- column 2 > row 2 -->
+          <div class="col_2 row_2">
+            <figure itemprop="img" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="#">
+                <img src="./img/Elia Pellegrini.jpg" itemprop="thumbnail" />
+              </a>
+              <!--hover data-->
+              <div class="img_hover">
+                <div class="img_darkness"></div>
+                <div class="profile">
+                  <img src="./img/Elia Pellegrini_profile_img.jpg" style="width: 32px; height: 32px; border-radius: 50%" />
+                  <span>
+                    <div>
+                      <a href="https://unsplash.com/@eliapelle">Elia Pellegrini</a>
+                    </div>
+                    <a href="https://unsplash.com/@eliapelle">Available for hire</a>
+                  </span>
+                </div>
+              </div>
+            </figure>
+          </div>
+        </div>
+
+        <!-- column 3 > row 1 -->
+        <div class="column_3" style="--column-gutter: 24px; --columns: 3">
+          <div class="col_3 row_1">
+            <div class="img_darkness">
+            <figure itemprop="img" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="#">
+                <img src="./img/Eugene Golovesov.jpg" itemprop="thumbnail" />
+              </a>
+            </div>
+
+              <!--hover data-->
+              <div class="img_hover">
+                <div class="profile">
+                  <img src="./img/Eugene Golovesov_profile_img.jpg" style="width: 32px; height: 32px; border-radius: 50%" />
+                  <span>
+                    <div>
+                      <a href="https://unsplash.com/@eugene_golovesov">Eugene Golovesov</a>
+                    </div>
+                    <a href="https://unsplash.com/@debrupas">Available for hire</a>
+                  </span>
+                </div>
+              </div>
+            </figure>
+          </div>
+
+          <!-- column 3 > row 2 -->
+          <div class="col_3 row_2">
+            <figure itemprop="img" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="#">
+                <img src="./img/Pascal Debrunner.jpg" itemprop="thumbnail" />
+              </a>
+              <!--hover data-->
+              <div class="img_hover">
+                <div class="img_darkness"></div>
+                <div class="profile">
+                  <img src="./img/Pascal Debrunner_profile_img.png" style="width: 32px; height: 32px; border-radius: 50%" />
+                  <span>
+                    <div>
+                      <a href="https://unsplash.com/@debrupas">Pascal Debrunner</a>
+                    </div>
+                    <a href="https://unsplash.com/@debrupas">Available for hire</a>
+                  </span>
+                </div>
+              </div>
+            </figure>
+          </div>
+        </div>
+        <!-- column 3 End -->
+      </div>
+    </section>
+
+
+    </section>
+  </body>
+</html>

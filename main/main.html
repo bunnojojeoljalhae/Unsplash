@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>main</title>
+    <link href="./main.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400&family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      li {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+      }
+      button {
+        visibility: hidden;
+      }
+      button svg,
+      button a {
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- main -->
+    <main>
+      <div class="main_wrap">
+        <div class="main_bg_image"></div>
+        <div class="darkness"></div>
+        <div class="main_content">
+          <h1 style="font-family: 'Almarai', sans-serif">Unsplash</h1>
+          <div style="font-size: 17px">
+            The internet's source of <a href="https://unsplash.com/license">freely-usable images.</a>
+            <p style="font-size: 17px">Powered by creators everywhere.</p>
+          </div>
+
+          <div class="main_search">
+            <div class="main_icon" id="magnifier_m">
+              <button>
+                <svg width="32" height="32" class="DFW_E nT46U NIGLg" viewBox="0 0 32 32" version="1.1" aria-hidden="false">
+                  <path
+                    d="M22 20c1.2-1.6 2-3.7 2-6 0-5.5-4.5-10-10-10S4 8.5 4 14s4.5 10 10 10c2.3 0 4.3-.7 6-2l6.1 6 1.9-2-6-6zm-8 1.3c-4 0-7.3-3.3-7.3-7.3S10 6.7 14 6.7s7.3 3.3 7.3 7.3-3.3 7.3-7.3 7.3z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <div id="main_search_bar">
+              <input type="text" placeholder="Search free high-resolution photos" />
+            </div>
+            <div class="main_icon" id="visual_m">
+              <button>
+                <svg width="32" height="32" class="VdNCI nT46U VETef" viewBox="0 0 32 32" version="1.1" aria-hidden="false">
+                  <path
+                    d="M6.7 25.3H12V28H6.7C5.2 28 4 26.8 4 25.3V20h2.7v5.3zm0-18.6H12V4H6.7C5.2 4 4 5.2 4 6.7V12h2.7V6.7zM25.3 4H20v2.7h5.3V12H28V6.7C28 5.2 26.8 4 25.3 4zm0 21.3H20V28h5.3c1.5 0 2.7-1.2 2.7-2.7V20h-2.7v5.3zm-4-9.3c0 2.9-2.4 5.3-5.3 5.3s-5.3-2.4-5.3-5.3 2.4-5.3 5.3-5.3 5.3 2.4 5.3 5.3zm-2.6 0c0-1.5-1.2-2.7-2.7-2.7s-2.7 1.2-2.7 2.7 1.2 2.7 2.7 2.7 2.7-1.2 2.7-2.7z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div id="trending">
+            Trending: <a href="#">flower</a>, <a href="#">wallpapers</a>, <a href="#">backgrounds</a>, <a href="#">happy</a>,
+            <a href="#">love</a>
+          </div>
+        </div>
+
+        <footer>
+          <p id="photoby"><a href="#">Photo</a> by <a href="https://unsplash.com/@daveherring">Dave Herring</a></p>
+          <p id="license">Read me more about the <a> &nbsp;Unsplash License</a></p>
+          <!-- <div class="squarespace"> -->
+          <div class="squarespace">
+            <a><img src="../img/squrespace_logo.png" /></a>
+            <p><a>Create your website today.</a></p>
+          </div>
+          <!-- </div> -->
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>

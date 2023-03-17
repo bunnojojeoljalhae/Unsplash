@@ -1,0 +1,70 @@
+/* section hover */
+
+.hover_data {
+  position: relative;
+  overflow: hidden;
+  /* display: none; */
+}
+
+/* ariticle */
+section {
+  margin-top: 50px;
+}
+
+.article_icon {
+  width: 40px;
+  height: 32px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.profile > img,
+.profile > a:nth-child(2),
+.profile > a:nth-child(3) {
+  display: flex;
+}
+
+.profile > a:nth-child(2) {
+  display: block;
+  font-size: 15px;
+}
+
+.profile > a:nth-child(3) {
+  display: block;
+  font-size: 11px;
+}
+
+.article_wrap {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+/* .horizon_img,
+.vertical_img {
+  position: absolute;
+} */
+
+.horizon_img > img {
+  width: 416px;
+  height: 624px;
+}
+
+.vertical_img > img {
+  width: 416px;
+  height: 234px;
+}
+.hover_data img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.row1,
+.row2 {
+  max-width: 1320px;
+  display: flex;
+}
+
+/* main article {
+  position: relative;
+} */
